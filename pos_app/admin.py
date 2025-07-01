@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import
+from .models import *
 
 class ReadOnlyAdmin(admin.ModelAdmin):
     def has_add_permission(self, request): return False
